@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-logo,
+.mobile-logo::before,
+.mobile-logo::after {
+    height: 200px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.mobile-logo {
+    background: #ff5b87;
+    position: relative;
+    transform: scale(0.75) rotateY(-30deg) rotateX(45deg) translateZ(4.5rem);
+    transform-origin: 50% 100%;
+    transform-style: preserve-3d;
+    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.25);
+    transition: 0.6s ease transform;
+}
+
+.mobile-logo:hover {
+    transform: scale(1);
+}
+
+.mobile-logo::before {
+    transform: translateZ(4rem);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 4px solid #EFD81D;
+    box-sizing: border-box;
+}
+
+.mobile-logo::before:hover {
+    transform: translateZ(0);
+}
+
+.mobile-logo::after {
+    transform: translateZ(-4rem);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #4EAE9F;
+}
+
+.mobile-logo::after:hover {
+    transform: translateZ(-1px);
+}

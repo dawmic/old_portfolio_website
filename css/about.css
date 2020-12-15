@@ -1,0 +1,51 @@
+#about {
+    width: 100%;
+    min-height: 700px;
+    background: #2E8CFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: skewY(4deg);
+}
+
+.aboutHeader {
+    margin-bottom: 3rem;
+    padding-top: 2rem;
+    color: #F7F7F7;
+    text-align: center;
+}
+
+.about-paragraph {
+    letter-spacing: 2px;
+    line-height: 1.5;
+    color: #F7F7F7;
+    width: 95%;
+}
+
+.about-technologies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.leveling-skew {
+    transform: skewY(-4deg);
+}
+
+
+/* mobile breakpoint *************************************/
+
+@media(max-width: 992px) {
+    .about-paragraph {
+        margin: 0 1rem 0 1rem;
+    }
+}
+
+@media(min-width: 993px and max-width: 1200px) {
+    .about-paragraph {
+        max-width: 80%;
+    }
+}
