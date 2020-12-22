@@ -36,16 +36,24 @@
 }
 
 
-/* mobile breakpoint *************************************/
+/*** media queries ***/
 
 @media(max-width: 992px) {
+    .aboutHeader {
+        text-align: right;
+        width: 90%;
+    }
     .about-paragraph {
         margin: 0 1rem 0 1rem;
+        width: 90%;
+    }
+    .about-technologies>img {
+        transform: scale(0.8);
     }
 }
 
-@media(min-width: 993px and max-width: 1200px) {
+@media(min-width: 993px) and (max-width: 1200px) {
     .about-paragraph {
-        max-width: 80%;
+        max-width: 90%;
     }
 }

@@ -17,6 +17,7 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <script src="landing.js" defer></script>
+    <script src='bulb_button.js' defer></script>
 </head>
 
 <body>
@@ -26,8 +27,8 @@
 
     <header id="top">
         <nav>
-
-            <h3 class="nav-logo">Hello,</h3>
+            <img src="images/lightbulb-on.png" alt="bulb" class='bulb-btn' loading="lazy">
+            <!--<h3 class="nav-logo">Hello,</h3>-->
 
             <ul class="menu">
                 <li>
@@ -48,12 +49,14 @@
         </nav>
 
         <img src="images/logoheader.svg" alt="logoHeader" class="logoHeaderImage" />
-        <h1>I'm glad that you visit my website.</h1>
+        <h1><span class='nav-logo'>Hello, </span>I'm dawid. front end dev.</h1>
         <p class="introParagraph">
-            I would like to be a front-end developer. Check out my website and get to know me more.
+            Nice to see you here. Check out my website and get to know me more.
         </p>
+        <img src="/images/programing.png" alt="developer" title="Icons made by surang https://www.flaticon.com/authors/surang" class='developer-logo'>
         <button><a href="#about" class='mainBtn'>Learn more</a> </button>
-        <div class="mobile-logo"></div>
+        <!--- <div class="mobile-logo"></div> -->
+
 
     </header>
     <main>
@@ -62,17 +65,17 @@
                 About me <span class="exclamation-mark">!</span>
             </h2>
             <p class="about-paragraph leveling-skew">
-                I am self taught guy who want to be a programmer and explore world of IT. Everyday I work to improve my skills and get to know new technologies and tools. I would like to develop in front-end branch. For now I know HTML, CSS, JavaScript and Vue. It's
-                hard to evaluate my level of knowledge myself.
-            </p>
-            <p>
-                Besides web technologies I have knowledge about network administration and linux systems.
+                I am self taught guy who want to get a job as programmer and explore world of IT. Everyday I work to improve my skills and get to know new technologies and tools. I would like to develop in front-end branch. For now I know HTML, CSS, JavaScript and Vue.
+                It's hard to evaluate my level of knowledge myself. Besides web technologies I have knowledge about network administration and linux systems.
             </p>
             <div class="about-technologies leveling-skew">
-                <img src="images/html5.png" alt="HTML5" title="HTML5" />
-                <img src="images/css3.png" alt="CSS3" title="CSS3" />
-                <img src="images/javascript.png" alt="JavaScript" title="JavaScript" />
-                <img src="images/vuejs.png" alt="VUE" title="VUE.js" />
+                <!--Icons made by surang https://www.flaticon.com/authors/surang -->
+                <img src="images/html5.png" alt="HTML5" title="HTML5" loading="lazy">
+                <img src="images/css3.png" alt="CSS3" title="CSS3" loading="lazy">
+                <img src="images/javascript.png" alt="JavaScript" title="JavaScript" loading="lazy">
+                <img src="images/vuejs.png" alt="VUE" title="VUE.js" loading="lazy">
+                <img src="images/sass.png" alt="SASS" title="SASS" loading="lazy">
+
             </div>
         </section>
         <section id="portfolio">
@@ -314,9 +317,9 @@
                     Feel free to visit my social media.
                 </p>
                 <div class="container-social-media-links">
-                    <a href=""><img src="images/facebook.svg" class="social-media-icon" alt="" title="Facebook" /></a>
-                    <a href="https://www.linkedin.com/in/dawid-michalina-895b2a162/"><img src="images/linkedin.svg" class="social-media-icon" alt="" title="Linkedin" /></a>
-                    <a href="https://github.com/dawmic"><img src="images/github.svg" class="social-media-icon" alt="" title="Github" /></a>
+                    <a href=""><img src="images/facebook.svg" class="social-media-icon" alt="facebook" title="Facebook" loading="lazy"></a>
+                    <a href="https://www.linkedin.com/in/dawid-michalina-895b2a162/"><img src="images/linkedin.svg" class="social-media-icon" alt="linkedin" title="Linkedin" loading="lazy"></a>
+                    <a href="https://github.com/dawmic"><img src="images/github.svg" class="social-media-icon" alt="github" title="Github" loading="lazy"></a>
                 </div>
             </div>
             <hr />
@@ -336,7 +339,7 @@
     </main>
     <footer>
         <p class="footer-paragraph">&#169; 2020 dawmic</p>
-        <a href="#top" class="footer-arrow"><img src="images/up-arrow.png" alt="" /></a>
+        <a href="#top" class="footer-arrow"><img src="images/up-arrow.png" alt="back to header" /></a>
     </footer>
 </body>
 

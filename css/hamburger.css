@@ -1,10 +1,10 @@
 .nav-icon {
     width: 33px;
-    height: 30px;
+    height: 20px;
     margin: 7px 7px;
     position: absolute;
     /*top: 4rem;*/
-    top: 1rem;
+    top: 2.5rem;
     right: 10%;
     cursor: pointer;
     margin: auto;
@@ -16,7 +16,7 @@
     border-radius: 2px;
     transition: .3s cubic-bezier(.8, .5, .2, 1.4);
     width: 100%;
-    height: 4px;
+    height: 2px;
     transition-duration: 500ms
 }
 
@@ -26,8 +26,10 @@
 }
 
 .nav-icon span:nth-child(2) {
-    top: 13px;
-    left: 0px;
+    top: 9px;
+    /*left: 0px;*/
+    width: 90%;
+    right: 0;
     opacity: 1;
 }
 

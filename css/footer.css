@@ -12,6 +12,10 @@ footer {
     margin-right: 2rem;
 }
 
+.footer-arrow:hover {
+    transform: scale(1.2);
+}
+
 .footer-paragraph {
     flex: 1;
     margin-left: 1rem;

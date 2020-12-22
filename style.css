@@ -36,11 +36,10 @@
         z-index: 1;
         width: 100%;
         background-color: transparent;
-        height: 8px;
     }
     
     .progress-bar {
-        height: 8px;
+        height: 6px;
         opacity: 0.7;
         width: 0%;
         background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
@@ -52,11 +51,19 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+    /* dark mode styles */
+    
+    .dark-theme {
+        background-color: #202020 !important;
+    }
+    
+    .dark-font {
+        color: #ECE7E7 !important;
+    }
+    /* end dark mode */
+    /*** media queries ***/
     
     @media(max-width: 576px) {
-        html {
-            /***** FONT HTML */
-        }
         h2 {
             font-size: 1.5rem;
         }
