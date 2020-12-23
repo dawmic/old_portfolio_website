@@ -20,7 +20,7 @@
             border-radius: 2rem;
             height: 32rem;
             width: 36rem;
-            border: 1px solid #FFFFFF;
+            border: 1px solid transparent;
             margin: 2% 2% 0 7%;
             align-self: flex-start;
         }
@@ -51,12 +51,11 @@
             height: 2.5rem;
             width: 2.5rem;
             padding-bottom: .5rem;
-            border-bottom: 2px solid #FFFFFF;
-            transition: .4s;
+            transition: .2s;
         }
         
         .social-media-icon:hover {
-            border-bottom: 2px solid #0073ff;
+            transform: scale(1.4);
         }
         
         .social-media-icon:hover::before {
