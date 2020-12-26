@@ -14,7 +14,8 @@ const itemList = [
     document.querySelector('form'),
     document.querySelector('.aboutHeader'),
     document.querySelector('.about-technologies'),
-    document.querySelector('.about-paragraph')
+    document.querySelector('.about-paragraph'),
+    document.querySelector('#skills')
 ];
 const social_media = document.querySelector('.social-media');
 const menuLinks = document.querySelectorAll('.menuLink');
