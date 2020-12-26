@@ -1,7 +1,8 @@
 #about {
     width: 100%;
     min-height: 700px;
-    background: #2E8CFF;
+    background: /*#2E8CFF;*/
+    #4294FF;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,26 +11,42 @@
 }
 
 .aboutHeader {
-    margin-bottom: 3rem;
-    padding-top: 2rem;
+    margin: 1rem 0 3rem 0;
+    width: 90%;
     color: #FAFAFA;
-    text-align: center;
+    text-align: left;
 }
 
 .about-paragraph {
     letter-spacing: 2px;
     line-height: 1.5;
     color: #FAFAFA;
-    width: 95%;
+    width: 70%;
+    position: relative;
+    margin-left: 2rem;
 }
 
-.about-technologies {
+.about-paragraph::before {
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    left: -2rem;
+    top: 2rem;
+    content: '';
+    border-bottom: 3px dotted #FAFAFA;
+    border-left: 3px dotted #FAFAFA;
+}
+
+.about-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
 }
+
+.about-photo {}
 
 .leveling-skew {
     transform: skewY(-4deg);
@@ -40,7 +57,6 @@
 
 @media(max-width: 992px) {
     .aboutHeader {
-        text-align: right;
         width: 90%;
     }
     .about-paragraph {
@@ -49,6 +65,12 @@
     }
     .about-technologies>img {
         transform: scale(0.8);
+    }
+}
+
+@media(max-width: 993px) {
+    .about-paragraph::before {
+        display: none;
     }
 }
 
