@@ -1,0 +1,23 @@
+#skills {
+    min-height: 700px;
+}
+
+.skillsHeader {
+    width: 90%;
+    margin: 3rem auto;
+    color: #4a5568;
+}
+
+.skills_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 760px) {
+    .skills_container img {
+        transform: scale(0.7);
+    }
+}
