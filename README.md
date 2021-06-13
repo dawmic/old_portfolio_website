@@ -6,4 +6,4 @@
 * CSS
 * JavaScript
 
-#### [Live](https://dawmic.github.io/)
+#### [Live](https://jovial-noyce-1bb951.netlify.app/)
